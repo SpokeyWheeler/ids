@@ -1,0 +1,7 @@
+---
+# defaults file for ids
+
+ids_base_path: "/opt/{{ vendor }}/informix/server"
+ids_install_path: "{{ ids_base_path }}/{{ ids_version }}"
+ids_tmp_path: "{{ ids_base_path }}/tmp_install"
+ids_version_previously_installed: false

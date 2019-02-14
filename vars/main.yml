@@ -1,0 +1,7 @@
+---
+# vars file for ids
+
+vendor: hcl
+ids_version: 12.10.FC12W1
+force_ids_install: false
+source_location_of_ids_media: "~"
