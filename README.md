@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/SpokeyWheeler/ids.svg?branch=master)](https://travis-ci.com/SpokeyWheeler/ids)
+[![CodeFactor](https://www.codefactor.io/repository/github/spokeywheeler/ids/badge)](https://www.codefactor.io/repository/github/spokeywheeler/ids)
 
 Role Name
 =========
