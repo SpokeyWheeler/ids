@@ -26,7 +26,7 @@ Vars:
 *   vendor: hcl or ibm
 *   ids_version: version number in full, e.g. 12.10.FC12W1
 *   force_ids_install: false or true
-*   source_location_of_ids_media: Either a path like "/tmp/installs" or a URL like "https://artifactory.example.com/media/hcl/informix/ids/12.10.FC12W1"
+*   source_location_of_ids_media: Either a path like "</tmp/installs>" or a URL like "<https://artifactory.example.com/media/hcl/informix/ids/12.10.FC12W1>"
 
 Dependencies
 ------------
