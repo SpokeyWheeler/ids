@@ -18,9 +18,13 @@ addons:
     - python-pip
 
 install:
+  - pip install --upgrade pip
   - pip install ansible
   - ansible --version
+  - pip install ansible-lint
+  - ansible-lint --version
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
 script:
  - ansible-playbook -i tests/inventory tests/test.yml --syntax-check
+ - ansible-lint tests/test.yml
